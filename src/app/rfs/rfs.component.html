@@ -1,0 +1,10 @@
+<label>
+    Employee Name:
+    <input type="text" [formControl] ="EmployeeName">
+</label>
+
+<p>Value: {{EmployeeName.Value}}</p>
+
+<p>
+    <button (click)="updateEmployeeName()">Refresh</button>
+</p>
